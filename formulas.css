@@ -1,0 +1,127 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    background: #f4f4f4; 
+}
+
+
+
+
+
+
+section { 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: auto; 
+    text-align: justify; 
+    background: white; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+h2 { 
+    color: #007bff; 
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+th, td { 
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+th { 
+    background: #007bff; 
+    color: white; 
+}
+
+.simulacao { 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+
+footer { 
+    background: #007bff; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.explicacao { 
+    background: #e6f2ff; 
+    padding: 15px; 
+    border-left: 5px solid #007bff; 
+    margin: 20px 0; 
+}
+
+.exemplo { 
+    background: #f9f9f9; 
+    padding: 15px; 
+    margin: 20px 0; 
+    border-left: 5px solid #007bff; 
+}
+
+
+
+
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+

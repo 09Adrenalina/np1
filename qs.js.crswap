@@ -1,0 +1,41 @@
+// Questão 1
+document.getElementById('submit1').addEventListener('click', function() {
+    const selectedAnswer = document.querySelector('input[name="answer1"]:checked');
+    const resultContainer = document.getElementById('result1');
+
+    if (!selectedAnswer) {
+        resultContainer.innerText = 'Por favor, selecione uma resposta.';
+        return;
+    }
+
+    const answerValue = parseInt(selectedAnswer.value);
+    const correctAnswer = 24; // A resistência correta é 24 ohms
+
+    if (answerValue === correctAnswer) {
+        resultContainer.innerText = 'Correto! A resistência é 24 ohms.';
+    } else {
+        resultContainer.innerText = 'Incorreto. A resistência correta é 24 ohms.';
+    }
+});
+
+// Questão 2
+document.getElementById('submit2').addEventListener('click', function() {
+    const selectedAnswer = document.querySelector('input[name="answer2"]:checked');
+    const resultContainer = document.getElementById('result2');
+
+    if (!selectedAnswer) {
+        resultContainer.innerText = 'Por favor, selecione uma resposta.';
+        return;
+    }
+
+    const answerValue = parseFloat(selectedAnswer.value);
+    const correctAnswer = 2.89; // A corrente correta é aproximadamente 2,89 A
+
+    if (Math.abs(answerValue - correctAnswer) < 0.01) {
+        resultContainer.innerText = 'Correto! A nova corrente é aproximadamente 2,89 A.';
+    } else {
+        resultContainer.innerText = 'Incorreto. A nova corrente correta é aproximadamente 2,89 A.';
+    }
+});
+
+//Quest
