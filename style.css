@@ -184,3 +184,14 @@ input[type=checkbox] {
     width: 60%;
     height: 50%;
 }
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input-group {
+    margin-bottom: 15px;
+}
